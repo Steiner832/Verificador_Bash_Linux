@@ -3,7 +3,7 @@
 Guia de Realització de la Pràctica: Sistema ADN-Bash
 Benvinguts a la pràctica d'Ubuntu-Mate. Per garantir l'autenticitat de les vostres tasques i la integritat dels registres, utilitzarem un sistema de Blockchain de Comandes basat en hashing criptogràfic SHA-256.
 
-1. Preparació de l'entorn
+##1. Preparació de l'entorn
 Abans de començar qualsevol exercici, heu d'activar el node de registre. Se us ha lliurat un fitxer binari anomenat iniciar_adn.
 
 Passos per activar-lo:
@@ -19,6 +19,7 @@ Executeu el binari per iniciar la sessió protegida:
 Bash
 ```bash
 ./iniciar_adn
+```
 Nota: Se us obrirà una nova sub-shell. Sabreu que esteu a dins perquè apareixerà el missatge de benvinguda del sistema de traçabilitat.
 
 2. Funcionament del registre (Log)
