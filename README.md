@@ -1,3 +1,5 @@
+# Verificador bash Linux ADN-Bash
+
 Guia de Realització de la Pràctica: Sistema ADN-Bash
 Benvinguts a la pràctica d'Ubuntu-Mate. Per garantir l'autenticitat de les vostres tasques i la integritat dels registres, utilitzarem un sistema de Blockchain de Comandes basat en hashing criptogràfic SHA-256.
 
@@ -9,10 +11,13 @@ Passos per activar-lo:
 Doneu permisos d'execució al fitxer:
 
 Bash
+```bash
 chmod +x iniciar_adn
+
 Executeu el binari per iniciar la sessió protegida:
 
 Bash
+```bash
 ./iniciar_adn
 Nota: Se us obrirà una nova sub-shell. Sabreu que esteu a dins perquè apareixerà el missatge de benvinguda del sistema de traçabilitat.
 
