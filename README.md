@@ -28,9 +28,9 @@ practica_<hostname>.log
 
 Cada línia del log conté:
 
-**Timestamp:** L'hora exacta de l'execució.
-**Comanda:** El text literal que heu escrit.
-**ID d'Integritat:** Un hash SHA-256 que encadena la comanda actual amb l'anterior.
+**Timestamp:** L'hora exacta de l'execució.  
+**Comanda:** El text literal que heu escrit.  
+**ID d'Integritat:** Un hash SHA-256 que encadena la comanda actual amb l'anterior.  
 
 **[!IMPORTANT]**
 NO intenteu editar el fitxer **.log** manualment. El sistema detecta qualsevol canvi en un sol caràcter, espai o l'ordre de les comandes. Si el fitxer està manipulat, la pràctica es considerarà no vàlida automàticament.
