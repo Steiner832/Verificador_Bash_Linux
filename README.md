@@ -13,7 +13,7 @@ Doneu permisos d'execució al fitxer:
 Bash
 ```bash
 chmod +x iniciar_adn
-
+```
 Executeu el binari per iniciar la sessió protegida:
 
 Bash
