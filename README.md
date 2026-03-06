@@ -22,16 +22,14 @@ Bash
 ```
 Nota: Se us obrirà una nova sub-shell. Sabreu que esteu a dins perquè apareixerà el missatge de benvinguda del sistema de traçabilitat.
 
-2. Funcionament del registre (Log)
+### 2. Funcionament del registre (Log)
 Totes les comandes que executeu a partir d'aquest moment es registraran automàticament al fitxer:
-practica_<el_teu_usuari>.log
+practica_<hostname>.log
 
 Cada línia del log conté:
 
 Timestamp: L'hora exacta de l'execució.
-
 Comanda: El text literal que heu escrit.
-
 ID d'Integritat: Un hash SHA-256 que encadena la comanda actual amb l'anterior.
 
 [!IMPORTANT]
